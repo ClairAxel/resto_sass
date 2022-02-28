@@ -2,6 +2,7 @@
 @import "colors";
 
 
+
 .title {
     color: $color-title;
 
@@ -143,4 +144,39 @@ body {
       }
     }
   }
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.footer {
+  position: relative;
+  margin-top: auto;
+  height: 20rem;
+  background-color: rgba($color-background-header, 0.9);
+
+  &__logo {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    height: 15rem;
+    border-radius: 100px;
+  }
+}
+
+.reseaux {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 9rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.icon-footer {
+  font-size: 4.2rem;
+  color: $color-white;
 }
