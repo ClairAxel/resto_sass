@@ -47,15 +47,14 @@ button{
 }
 .button-submit{
     background-color: rgb(59, 252, 59);
-    :hover{
+    &:hover{
         background-color: green;
     }
 }
 
 .button-reset{
-    @extend .button-submit;
     background-color: rgb(255, 124, 124);
-    :hover{
+    &:hover{
         background-color: red;
     }
 }

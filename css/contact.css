@@ -209,7 +209,7 @@ button {
   background-color: #3bfc3b;
 }
 
-.button-submit :hover, .button-reset :hover {
+.button-submit:hover, .button-reset :hover {
   background-color: green;
 }
 
@@ -217,7 +217,7 @@ button {
   background-color: #ff7c7c;
 }
 
-.button-reset :hover {
+.button-reset:hover {
   background-color: red;
 }
 /*# sourceMappingURL=contact.css.map */
