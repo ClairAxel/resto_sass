@@ -23,7 +23,7 @@ body {
 .header {
   position: relative;
   height: 9.6rem;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0);
 }
 
 .header__box-img {
@@ -109,7 +109,7 @@ body {
 }
 
 .restaurantMenu {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   color: #ffff;
   display: -ms-grid;
   display: grid;
