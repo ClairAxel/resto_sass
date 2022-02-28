@@ -1,0 +1,182 @@
+@import "variable";
+@import "colors";
+
+
+
+.title {
+    color: $color-title;
+
+}
+p {
+  @include txt;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.corps, .titre, .chef {
+    @include direction;
+}
+
+.presentation {
+  flex-direction: row;
+}
+
+.chef {
+    width: 1.5*$size;
+    height: 1.5*$size;
+}
+
+.img {
+    width: $size;
+    height: $size;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.corp{
+  margin: 10px;
+  padding: 10px;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.accueil {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(#000, 0.3)),
+    url("image/resto-accueil.jpg");
+}
+
+.header {
+  position: relative;
+  height: 9.6rem;
+  background-color: rgba($color-background-header, 0.6);
+
+  &__box-img {
+    position: absolute;
+    left: 30rem;
+  }
+
+  &__img {
+    height: 10rem;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+
+  &__nav {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 3.3rem;
+  }
+
+  &__nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.8rem;
+  }
+
+  &__list-item a {
+    text-decoration: none;
+    color: $color-white;
+    text-transform: uppercase;
+    padding-bottom: 0.6rem;
+    transition: all 0.5s;
+
+    &:hover {
+      border-bottom: 1px solid $color-white;
+    }
+  }
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $color-white;
+  background-color: rgba($color-background-header, 0.6);
+  padding: 3rem;
+
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 1.2rem;
+    .resto-name {
+      color: $color-title;
+    }
+  }
+
+  h2 {
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  .btns {
+    a {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: $color-white;
+      background: none;
+      border: 2px solid $color-title;
+      border-radius: 100px;
+      padding: 1rem 1.5rem;
+      margin-right: 1.5rem;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $color-title;
+      }
+    }
+  }
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.footer {
+  position: relative;
+  margin-top: auto;
+  height: 20rem;
+  background-color: rgba($color-background-header, 0.9);
+
+  &__logo {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    height: 15rem;
+    border-radius: 100px;
+  }
+}
+
+.reseaux {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 9rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.icon-footer {
+  font-size: 4.2rem;
+  color: $color-white;
+}
