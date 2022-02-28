@@ -1,0 +1,14 @@
+@import "colors";
+
+$size: 356px;
+
+@mixin direction {
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin txt {
+    font-family: "Raleway", sans-serif;
+    color: $color-white;
+    text-align: center;
+}
