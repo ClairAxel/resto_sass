@@ -1,0 +1,30 @@
+$colorPrimary : #cda45e;
+$colorSecondary : #e7be77;
+@mixin menuItem {
+    font-size: 28px;
+    justify-content: center;
+}
+@mixin menuItemName {
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: -8px;
+    align-self: flex-start;
+}
+@mixin menuItemPrice {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: -67px;
+    margin-bottom: -8px;
+}
+@mixin menuItemDescription {
+    border-top: 2px dotted $colorSecondary;
+    margin: 0px;
+    padding: 10px;
+    font-style: italic;
+}
+@mixin menuSection {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+}
