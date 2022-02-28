@@ -1,0 +1,66 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+  color: #cda45e;
+  text-align: center;
+  font-family: "Rallway";
+  font-size: 2em;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+form label {
+  margin: 20px;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+form legend {
+  color: #ffffff;
+  text-align: center;
+}
+
+form input {
+  margin-left: 20px;
+}
+
+.fieldset2 {
+  margin: 20px;
+}
+
+textarea {
+  width: 99%;
+  height: 300px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+button {
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: 270px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.button-submit, .button-reset {
+  background-color: #3bfc3b;
+}
+
+.button-submit:hover, .button-reset :hover {
+  background-color: green;
+}
+
+.button-reset {
+  background-color: #ff7c7c;
+}
+
+.button-reset:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=contact.css.map */
