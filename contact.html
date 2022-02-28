@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/galery.css">
-        <title>Galery</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <title>Contact</title>
     </head>
     <body>
         <header class="header">
@@ -20,19 +20,27 @@
             </ul>
             </nav>
         </header>
-        <h1>Galery</h1>
-        <div>
-            <img src="image/chef.png">
-            <img src="image/terrasse.png">
-            <img src="image/salle.png">
-            <img src="image/employer.png">
-        </div>
-        <div id="div2">
-            <img src="image/terrase.jpg">
-            <img src="image/cuisine.jpeg">
-            <img src="image/cheffe.png">
-            <img src="image/serveur.png">
-        </div>
+        <h1>Contact</h1>
+        <form>
+            <fieldset class="fieldset1">
+                <label for="name">First name</label><br>
+                <input type="text" placeholder="Ex: Marvin"><br>
+                <label for="lastName">Last name</label><br>
+                <input type="text" placeholder="Ex: Anderson"><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" placeholder="Ex: mail@hotmail.com"><br>
+                <label for="tel">Phone number</label><br>
+                <input type="text" placeholder="Ex: 00 11 22 33 44"><br>
+                <label for="birth">Date of birth</label><br>
+                <input type="date"><br>
+            <fieldset class="fieldset2">
+                <legend>Write us !</legend>
+                <textarea></textarea>
+            </fieldset>
+            <button class="button-submit">Submit</button>
+            <button class="button-reset">Reset</button>
+        </fieldset>
+        </form>
         <footer class="footer">
             <div class="footer__logo-box">
             <img src="image/logo.jpg" class="footer__logo" alt="" />

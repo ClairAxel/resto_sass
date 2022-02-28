@@ -155,32 +155,4 @@ body {
   font-size: 4.2rem;
   color: #fff;
 }
-
-body {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-div {
-  text-align: center;
-}
-
-h1 {
-  font-family: "Rallway";
-  color: #cda45e;
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 4em;
-}
-
-img:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-#div2 {
-  margin-bottom: 50px;
-}
-/*# sourceMappingURL=galery.css.map */
+/*# sourceMappingURL=footer.css.map */

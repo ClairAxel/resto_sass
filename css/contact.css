@@ -160,27 +160,64 @@ body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-div {
-  text-align: center;
-}
-
 h1 {
-  font-family: "Rallway";
   color: #cda45e;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 4em;
+  font-family: "Rallway";
 }
 
-img:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+form {
+  width: 50%;
+  margin: auto;
 }
 
-#div2 {
-  margin-bottom: 50px;
+form label {
+  margin: 20px;
+  font-size: 1.5em;
+  color: #ffffff;
 }
-/*# sourceMappingURL=galery.css.map */
+
+form legend {
+  color: #ffffff;
+  text-align: center;
+}
+
+form input {
+  margin-left: 20px;
+}
+
+.fieldset2 {
+  margin: 20px;
+}
+
+textarea {
+  width: 99%;
+  height: 300px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+button {
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: 270px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.button-submit, .button-reset {
+  background-color: #3bfc3b;
+}
+
+.button-submit :hover, .button-reset :hover {
+  background-color: green;
+}
+
+.button-reset {
+  background-color: #ff7c7c;
+}
+
+.button-reset :hover {
+  background-color: red;
+}
+/*# sourceMappingURL=contact.css.map */
