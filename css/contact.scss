@@ -1,0 +1,60 @@
+$maCouleur : #cda45e;
+$couleurSecondaire : #ffffff;
+$maPolice: "Rallway";
+$maLargueur : 50%;
+
+body{
+    background-color: rgba(0,0,0,0.9);
+}
+
+h1{
+    color: $maCouleur;
+    text-align: center;
+    font-family: $maPolice;
+}
+form{
+    width: $maLargueur;
+    margin: auto;
+    label{
+        margin: 20px;
+        font-size: 1.5em;
+        color: $couleurSecondaire;
+    }
+    legend{
+        color: $couleurSecondaire;
+        text-align: center;
+    }
+    input{
+        margin-left: 20px;
+    }
+}
+.fieldset2{
+    margin: 20px;
+}
+textarea{
+    width: 99%;
+    height: 300px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+button{
+    font-size: 2em;
+    color: $couleurSecondaire;
+    margin-left: 270px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.button-submit{
+    background-color: rgb(59, 252, 59);
+    :hover{
+        background-color: green;
+    }
+}
+
+.button-reset{
+    @extend .button-submit;
+    background-color: rgb(255, 124, 124);
+    :hover{
+        background-color: red;
+    }
+}
